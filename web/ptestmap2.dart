@@ -1,9 +1,9 @@
+library ptestmap2;
+
 import 'dart:html';
-import 'package:polymer/polymer.dart';
 import 'package:google_maps/google_maps.dart';
 
 void main() {
-  initPolymer();
   visualRefresh = true;
 
   final mapOptions = new MapOptions()
